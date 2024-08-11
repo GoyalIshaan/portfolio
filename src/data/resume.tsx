@@ -110,7 +110,7 @@ export const DATA = {
   projects: [
     {
       title: "Docnest",
-      href: "/",
+      href: "http://44.202.59.248/",
       dates: "August 2024",
       active: true,
       description:
@@ -131,6 +131,11 @@ export const DATA = {
         "Quill",
       ],
       links: [
+        {
+          type: "Website",
+          href: "http://44.202.59.248/",
+          icon: <Icons.globe className="size-3" />,
+        },
         {
           type: "Source",
           href: "https://github.com/GoyalIshaan/docnest",
