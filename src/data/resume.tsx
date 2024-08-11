@@ -29,7 +29,9 @@ export const DATA = {
     "JWT",
     "Zod",
     "Python",
+    "MongoDB",
     "Postgres SQL",
+    "Mongoose",
     "Prisma",
     "Cloudflare Workers",
     "Docker",
@@ -176,7 +178,7 @@ export const DATA = {
     {
       title: "DropShop",
       href: "/",
-      dates: "April 2023 - March 2024",
+      dates: "July 2024",
       active: true,
       description:
         "DropShop is an e-commerce platform which offers a suite of features including product listing, user auth, cart management, order processing, and more.",
