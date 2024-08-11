@@ -19,6 +19,7 @@ export const DATA = {
     "HTML",
     "CSS",
     "Tailwind",
+    "ShadCn",
     "Framer Motion",
     "Typescript",
     "Javascript",
