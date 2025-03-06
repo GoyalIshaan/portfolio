@@ -123,9 +123,10 @@ export default function Page() {
                   Check out my latest work
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, from simple
-                  websites to complex web applications. Here are a few of my
-                  favorites.
+                  I specialize in building innovative software solutions with
+                  modern technologies. My projects demonstrate my skills in
+                  full-stack development, AI integration, and distributed
+                  systems.
                 </p>
               </div>
             </div>
@@ -161,11 +162,12 @@ export default function Page() {
                   Hackathons
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  I like building things
+                  Rapid Innovation
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve participated in a few hackathons over the years.
-                  Here are some of my favorite projects.
+                  I enjoy the challenge of hackathons, where I can collaborate
+                  with others to rapidly prototype and build innovative
+                  solutions to real-world problems under tight deadlines.
                 </p>
               </div>
             </div>
@@ -204,12 +206,14 @@ export default function Page() {
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Want to chat? Feel free to reach out via email at{" "}
                 <a
-                  href="mailto:ishaan6@illinois.edu"
+                  href={`mailto:${DATA.contact.email}`}
                   className="text-blue-500 hover:underline"
                 >
-                  ishaan6@illinois.edu
-                </a>
-                . I&apos;ll respond as soon as I can.
+                  {DATA.contact.email}
+                </a>{" "}
+                or phone at{" "}
+                <span className="text-blue-500">{DATA.contact.tel}</span>.
+                I&apos;ll respond as soon as I can.
               </p>
             </div>
           </BlurFade>
