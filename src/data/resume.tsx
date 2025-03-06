@@ -180,6 +180,71 @@ export const DATA = {
       image: "/docnest.jpeg",
       video: "",
     },
+    {
+      title: "QuickMark",
+      href: "https://quickmark-one.vercel.app/",
+      dates: "July 2024",
+      active: true,
+      description:
+        "QuickMark is a modern blogging platform with a focus on performance and user experience. Features include rich text editing, image uploads, user authentication, commenting system, and responsive design. Built with a microservices architecture using Cloudflare Workers.",
+      technologies: [
+        "Vite",
+        "React",
+        "TypeScript",
+        "TailwindCSS",
+        "Framer Motion",
+        "Node.js",
+        "Hono",
+        "PostgreSQL",
+        "Prisma Accelerate",
+        "Jwt",
+        "Zod",
+        "Cloudfare Workers",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://quickmark-one.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/GoyalIshaan/quickmark",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/quickmark.jpeg",
+      video: "",
+    },
+    {
+      title: "DropShop",
+      href: "https://github.com/GoyalIshaan/dropshop",
+      dates: "July 2024",
+      active: true,
+      description:
+        "DropShop is a full-featured e-commerce platform with product listings, user authentication, cart management, order processing, and payment integration. Built with a MERN stack and includes admin dashboard for product and order management.",
+      technologies: [
+        "Vite",
+        "React",
+        "TypeScript",
+        "Redux",
+        "TailwindCSS",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Jwt",
+        "Paypal API",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/GoyalIshaan/dropshop",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/white.png",
+      video: "",
+    },
   ],
   hackathons: [
     {
